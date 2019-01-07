@@ -1,0 +1,108 @@
+#h1 {
+	font-size: 45px;
+	text-align: center;
+	font-family: 'Rozha One', serif;
+	background-color: white; 
+	color: black;
+	padding-top: 20px;
+}
+
+h2 {
+font-family: 'Rozha One', serif;
+}
+
+img {
+border-radius: 40%;
+margin: 20px;
+margin-left: 365px;
+border: solid;
+color: white;
+}
+
+#image {
+background-image: url("../images/577771.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+#headlines, #inspiration, #contact, #projects, #background {
+	background-color: white; 
+	color: black;
+	padding-top: 15px;
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+.headline1 {
+	font-size: 20px;
+	text-align: center;
+}
+
+.headline2 {
+	font-size: 20px;
+	text-align: center;
+}
+
+.backgroundp, .techp, .projectsp {
+	font-size: 18px;
+}
+
+.contactp {
+	font-size: 18px;
+}
+
+ul li {
+	font-size: 18px;	
+}
+
+a {
+	text-decoration: underline;
+	color: black;
+}
+
+
+@media screen and (max-width: 1199px) {
+img {
+    margin-left: 300px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+img {
+    margin-left: 200px;
+  }
+}
+
+@media screen and (max-width: 962px) {
+#headlines, #inspiration, #contact, #projects, #background {
+    padding-left: 100px;
+	padding-right: 100px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+img {
+    margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 697px) {
+#headlines, #inspiration, #contact, #projects, #background {
+    padding-left: 50px;
+	padding-right: 50px;
+  }
+}
+
+@media screen and (max-width: 578px) {
+img {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 597px) {
+#headlines, #inspiration, #contact, #projects, #background {
+    padding-left: 15px;
+	padding-right: 15px;
+  }
+}
